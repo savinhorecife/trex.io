@@ -41,7 +41,7 @@ function preload(){
 
     jumpmusic=loadSound("jump.mp3");
     diemusic=loadSound("die.mp3");
-    pointmusic=loadSound("checkpoint.mp3");
+    pointmusic=loadSound("checkPoint.mp3");
 }
 
 function setup(){
@@ -148,7 +148,7 @@ function draw(){
 
      if(touches.length > 0 ||  keyDown("space")) {
       reset();
-      touches = [];
+      touches = []
      }
    
     }
